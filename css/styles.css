@@ -1,0 +1,46 @@
+body {
+  background-color: #000717;
+  text-align: center;
+}
+
+.navbar {
+  padding-left: 0;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 4% 15%;
+}
+
+
+/* Logo Section */
+
+.logo-section {
+  margin: 5% 0;
+}
+
+.am-logo {
+  width: 100%;
+}
+
+/* Footer Section */
+
+
+.social-icon {
+  color: #fff;
+  margin: 20px 10px;
+}
+
+/* Viewport */
+@media (max-width: 991px) {
+.container-fluid {
+  padding: 4% 0 0 1%;
+}
+  .am-logo {
+    width: auto;
+  }
+
+}
