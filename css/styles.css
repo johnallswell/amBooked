@@ -75,32 +75,7 @@ p {
 }
 
 /* Buttons */
-.btn-banner {
-  background: #c334d9;
-  background-image: -webkit-linear-gradient(top, #c334d9, #2b6fb8);
-  background-image: -moz-linear-gradient(top, #c334d9, #2b6fb8);
-  background-image: -ms-linear-gradient(top, #c334d9, #2b6fb8);
-  background-image: -o-linear-gradient(top, #c334d9, #2b6fb8);
-  background-image: linear-gradient(to bottom, #c334d9, #2b6fb8);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-}
 
-.btn-banner:hover {
-  background: #fc3caf;
-  background-image: -webkit-linear-gradient(top, #fc3caf, #34d9b8);
-  background-image: -moz-linear-gradient(top, #fc3caf, #34d9b8);
-  background-image: -ms-linear-gradient(top, #fc3caf, #34d9b8);
-  background-image: -o-linear-gradient(top, #fc3caf, #34d9b8);
-  background-image: linear-gradient(to bottom, #fc3caf, #34d9b8);
-  text-decoration: none;
-}
 
 /* Navigation */
 
@@ -152,7 +127,50 @@ p {
   body {
     padding: 0;
   }
+
+  .container-fluid {
+    padding: 0;
+  }
+
+  /* Navigation */
+
+  .navbar {
+    padding: 2px 0 15px 40px;
+  }
+
+.navbar-brand {
+  margin-right: 40%;
+}
+
+
+
+  .nav-item {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.9rem;
+    margin-left: 1rem;
+  }
+
+  .nav-link {
+    color: #D0E7ED;
+  }
+
   .nav-social {
     display: none;
+  }
+
+  /* Header */
+  #header {
+    padding: 5px;
+  }
+
+
+
+  /* Heading */
+  .big-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+    padding: 0;
   }
 }
