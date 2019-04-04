@@ -13,6 +13,17 @@ p {
   padding: 5%;
 }
 
+/* Container */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.feature-section {
+  background-color: #fff;
+}
+
 /*Banner*/
 #banner {
 
@@ -35,6 +46,10 @@ p {
 
 .header-icon {
   color: #6595C1;
+}
+
+.laptop-img {
+  width: 90%;
 }
 
 /* Heading */
