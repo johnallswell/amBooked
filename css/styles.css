@@ -1,6 +1,6 @@
 body {
   font-family: 'Quicksand', sans-serif;
-  background-color: #000717;
+  background-color: #000000;
   text-align: center;
 }
 
@@ -15,7 +15,7 @@ p {
 
 /* Container */
 .container-fluid {
-  padding: 7% 15%;
+  padding: 7% 15% 0;
 }
 
 /* Sections */
@@ -39,9 +39,27 @@ p {
   color: #fff;
 }
 
+/* Welcome Button */
+
+.welcome {
+  
+}
+
+.enter-site {
+  border-color: #B3AF72;
+  color: #B3AF72;
+  font-family: "Quicksand", sans-serif;
+  width: 6rem;
+}
+
 /* Header */
 #header {
-  padding: 100px;
+  padding: 0;
+}
+
+.main-logo {
+  height: auto;
+  width: 60%;
 }
 
 .header-icon {
