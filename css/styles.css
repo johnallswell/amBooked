@@ -193,6 +193,16 @@ p {
   }
 
 
+  /*Button*/
+  .enter-site {
+    border-color: #B3AF72;
+    color: #B3AF72;
+    font-family: "Quicksand", sans-serif;
+    font-size: 3rem;
+    width: 10rem;
+  }
+
+
   /* Heading */
   .big-heading {
     font-family: 'Montserrat', sans-serif;
